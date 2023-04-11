@@ -1,0 +1,26 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+/**
+ *
+ * @author C-20
+ */
+import java.util.Scanner;
+public class YehudaQuiz {
+    public static void main (String[]args){
+        System.out.println("Masukan variabel 1:");
+        Scanner input = new Scanner(System.in);
+        int a= input.nextInt();
+        System.out.println("Masukan variabel 2:");
+        int b= input.nextInt();
+        int jumlah = a+b ;
+        System.out.println("Jumlah variabel 1 + variabel 2 ="+jumlah);
+        System.out.println("Dikerjakan oleh Yehuda Adi Sucahya (22201070)");
+        
+        
+                
+    }
+}
